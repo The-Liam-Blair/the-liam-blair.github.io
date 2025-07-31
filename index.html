@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Game Dev Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <!-- NAVIGATION -->
+  <header class="sticky top-0 bg-gray-950/80 backdrop-blur z-50">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">My Portfolio</h1>
+      <ul class="flex gap-6 text-sm">
+        <li><a href="#intro" class="hover:text-purple-400">Intro</a></li>
+        <li><a href="#projects" class="hover:text-purple-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-purple-400">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO / INTRO -->
+  <section id="intro" class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Hello, I am Liam Blair.</h2>
+    <p class="text-lg md:text-xl max-w-2xl">
+      I am a hobbyist game developer, modder and Games Development (BSc) Graduate eager to create enjoyable and engaging experiences for gamers.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-16 px-4 bg-gray-800">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-12">Projects</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Project Card Example -->
+        <div class="bg-gray-900 rounded-xl shadow-md overflow-hidden">
+          <img src="assets/images/project1.jpg" alt="Game Thumbnail" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">Project Title</h4>
+            <p class="text-sm text-gray-400 mb-4">Short summary of what the project is, what you worked on, and what it demonstrates.</p>
+            <a href="#" class="text-purple-400 hover:underline text-sm">View More →</a>
+          </div>
+        </div>
+
+        <!-- Duplicate project cards as needed -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 px-4 bg-gray-900 text-center">
+    <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
+    <div class="flex justify-center gap-6 mt-4 text-xl">
+      <a href="https://github.com/The-Liam-Blair" class="hover:text-purple-400">GitHub</a>
+      <a href="https://liam-blair.itch.io" class="hover:text-purple-400">Itch.io</a>
+      <a href="https://thunderstore.io/package/RigsInRags" class="hover:text-purple-400">Thunderstore</a>
+      <a href="https://www.linkedin.com/in/liam-b-4b03561ba" class="hover:text-purple-400">LinkedIn</a>
+    
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 text-center text-sm text-gray-500 bg-gray-950">
+    © 2025 [Your Name]. All rights reserved.
+  </footer>
+
+</body>
+</html>
