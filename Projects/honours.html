@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Honours - Project Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <!-- Breadcrumb / Back Link -->
+  <div class="max-w-4xl mx-auto px-4 py-6">
+    <a href="../index.html#projects" class="text-purple-400 hover:underline text-sm">← Back to Projects</a>
+  </div>
+
+  <!-- Project Header -->
+  <section class="max-w-4xl mx-auto px-4">
+    <h1 class="text-3xl font-bold mb-2">Honours Project</h1>
+    <p class="text-sm text-gray-400 mb-8">University honours project that investigated using the Wave Function Collapse algorithm and Voronoi Regions to generate 2D terrain.</p>
+    
+    <!-- Gallery -->
+    <div class="mb-8 mx-auto max-w-2xl">
+      <img src="../Assets/images/HonoursImage.gif" alt="Screenshot 1" class="rounded-lg object-contain w-full" />
+    </div>    
+    
+    <!-- Links -->
+    <div class="mb-8">
+      <h2 class="text-xl font-semibold mb-2 mb-8 gap-6 flex">
+              <a href="https://github.com/The-Liam-Blair/Honours" class="hover:text-purple-400" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </h2>
+    </div>
+
+    <div class="mb-8">
+      <p class="text-sm text-gray-300">
+        Serving as my honours project for my final year in university, the aim of the project was to investigate the use of Wave Function Collapse (WFC) and its uses in procedurally generating 2D terrain, specifically on increasing the amount of control the developer has over the procedural generation.
+        <br><br> The project culminated with combining the WFC algorithm with Voronoi Regions, where Voronoi Regions would be used to generate 'Biomes', or designated areas within the 2D map that dictates the tile that is allowed to generate there. Additionally Lloyd Relaxation can be applied to more unify the regions. <br>Afterwards, the WFC algorithm would detect and correct biomes such that all adjacent biomes are valid, and invalid biomes would be replaced to satisfy the WFC algorithm's adjacency ruleset.
+        <br>Finally, the WFC algorithm would apply a custom-made 'Biome Spread', a configurable value per tile type that allowed biomes to encroach and take over each other's tiles to more seamlessly blend biomes together.
+        <br><br>Ultimately the project delivered a combined WFC and Voronoi Regions algorithm that allowed some additional control of generation 2D maps; utilising six different tile/biome types to generate simple but varied maps with extensive user input to finely control the generation of each map.
+      </p>
+    </div>
