@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rigs Arsenal - Project Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <!-- Breadcrumb / Back Link -->
+  <div class="max-w-4xl mx-auto px-4 py-6">
+    <a href="../index.html#projects" class="text-purple-400 hover:underline text-sm">← Back to Projects</a>
+  </div>
+
+  <!-- Project Header -->
+  <section class="max-w-4xl mx-auto px-4">
+    <h1 class="text-3xl font-bold mb-2">Risk of Rain 2 Mod: Rigs Arsenal</h1>
+    <p class="text-sm text-gray-400 mb-8">A mod for the game Risk of Rain 2 that adds several lore-friendly and fully modelled items and equipment.</p>
+    
+    <!-- Gallery -->
+    <div class="mb-8 mx-auto max-w-2xl">
+      <img src="../Assets/images/RigsArsenalImage.gif" alt="Screenshot 1" class="rounded-lg object-contain w-full" />
+    </div>    
+    
+    <!-- Links -->
+    <div class="mb-8">
+      <h2 class="text-xl font-semibold mb-2 mb-8 gap-6 flex">
+              <a href="https://thunderstore.io/package/RigsInRags/RigsArsenal" class="hover:text-purple-400" target="_blank" rel="noopener noreferrer">Thunderstore</a>
+              <a href="https://github.com/The-Liam-Blair/Risk-of-Rain-2-RigsArsenal" class="hover:text-purple-400" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </h2>
+    </div>
+
+    <div class="mb-8">
+      <p class="text-sm text-gray-300">
+        Rigs Arsenal is the first and largest mod I have developed for Risk of Rain 2. It currently adds 12 varied items and 3 equipment into the game, with each having it's own unique model and in-game usage.
+        <br><br>
+        Acting as my first introduction to modding, I learned to utilise Unity asset bundles to package model and textures to be imported into the game while item implementations were handled mostly initially with hooks onto pre-existing vanilla functions, such as the TakeDamage() function to add or modify damage events if a certain item was held. Later on, I also integrated Harmony patching for a few items instead of hooks as they are more stable. This mod also served as my introduction to the 3D modelling software Blender, which I used to create the models for each item.
+        <br><br>Initially the project took about eight months to complete from inception, and on release included seven items. Now, over a year after release, a further five items and three equipment have been implemented, as well as balance updates and bug fixes as identified by myself and the Risk of Rain 2 community.
+      </p>
+    </div>

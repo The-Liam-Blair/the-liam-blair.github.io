@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Game Dev Portfolio</title>
+  <title>Liam Blair Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans">
 
-  <!-- NAVIGATION -->
   <header class="sticky top-0 bg-gray-950/80 backdrop-blur z-50">
     <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold">My Portfolio</h1>
+      <h1 class="text-xl font-bold">Liam Blair Portfolio</h1>
       <ul class="flex gap-6 text-sm">
         <li><a href="#intro" class="hover:text-purple-400">Intro</a></li>
         <li><a href="#projects" class="hover:text-purple-400">Projects</a></li>
@@ -20,39 +19,182 @@
     </nav>
   </header>
 
-  <!-- HERO / INTRO -->
   <section id="intro" class="min-h-screen flex flex-col justify-center items-center text-center px-4">
     <h2 class="text-4xl md:text-5xl font-bold mb-4">Hello, I am Liam Blair.</h2>
     <p class="text-lg md:text-xl max-w-2xl">
-      I am a hobbyist game developer, modder and Games Development (BSc) Graduate eager to create enjoyable and engaging experiences for gamers.
-    </p>
+      I am a hobbyist game developer, modder and Games Development (BSc) graduate, eager to create enjoyable and engaging experiences for gamers.
+    <br><br>
+    I am specialised with the Unity game engine and C#, and I also have experience programming in C/C++. My portfolio below consists of work completed as part of university coursework, game jams, as well as personal projects such as mods for the game 'Risk of Rain 2'.
+  </p>
   </section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="py-16 px-4 bg-gray-800">
-    <div class="max-w-6xl mx-auto">
-      <h3 class="text-3xl font-bold text-center mb-12">Projects</h3>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- PROJECTS -->
+<section id="projects" class="py-16 px-4 bg-gray-800">
+  <div class="max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-12">Projects</h3>
 
-        <!-- Project Card Example -->
+    <!-- MODS -->
+    <div class="mb-12">
+      <h4 class="text-2xl font-semibold mb-6">Mods</h4>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
         <div class="bg-gray-900 rounded-xl shadow-md overflow-hidden">
-          <img src="assets/images/project1.jpg" alt="Game Thumbnail" class="w-full h-48 object-cover" />
+          <img src="https://gcdn.thunderstore.io/live/repository/icons/RigsInRags-RigsArsenal-1.4.0.png.128x128_q95.png" alt="Game Thumbnail" class="w-full h-48 flex items-center justify-center object-contain mt-8" />
           <div class="p-4">
-            <h4 class="text-xl font-semibold mb-2">Project Title</h4>
-            <p class="text-sm text-gray-400 mb-4">Short summary of what the project is, what you worked on, and what it demonstrates.</p>
-            <a href="#" class="text-purple-400 hover:underline text-sm">View More →</a>
+            <h4 class="text-xl font-semibold mb-2">Rigs Arsenal</h4>
+            <p class="text-sm text-gray-400 mb-4">A mod for the game Risk of Rain 2 that adds several lore-friendly and fully modelled items and equipment.</p>
+            <div class="flex justify-between items-center">
+              <a href="Projects/rigsarsenal.html" class="text-purple-400 hover:underline text-sm">View More →</a>
+              <div class="flex gap-x-3">
+                <a href="https://thunderstore.io/package/RigsInRags/RigsArsenal" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/thunderstore.png" alt="Thunderstore" class="w-6 h-6 hover:opacity-75" />
+                </a>
+                <a href="https://github.com/The-Liam-Blair/Risk-of-Rain-2-RigsArsenal" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/github.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Duplicate project cards as needed -->
+        <div class="bg-gray-900 rounded-xl shadow-md overflow-hidden">
+          <img src="https://gcdn.thunderstore.io/live/repository/icons/RigsInRags-PataponMeditate-1.0.1.png.128x128_q95.png" alt="Game Thumbnail" class="w-full h-48 flex items-center justify-center object-contain mt-8" />
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">Patapon Meditate</h4>
+            <p class="text-sm text-gray-400 mb-4">A mod for the game Risk of Rain 2 that reskins the Seeker character's Meditate skill to be Patapon-themed.</p>
+            <div class="flex justify-between items-center">
+              <a href="Projects/pataponmeditate.html" class="text-purple-400 hover:underline text-sm">View More →</a>
+              <div class="flex gap-x-3">
+                <a href="https://thunderstore.io/package/RigsInRags/PataponMeditate" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/thunderstore.png" alt="Thunderstore" class="w-6 h-6 hover:opacity-75" />
+                </a>
+                <a href="https://github.com/The-Liam-Blair/Risk-of-Rain-2-Patapon-Meditate" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/github.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
-  </section>
+
+    <!-- UNIVERSITY PROJECTS -->
+    <div class="mb-12">
+      <h4 class="text-2xl font-semibold mb-6">University Projects</h4>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="bg-gray-900 rounded-xl shadow-md overflow-hidden">
+          <img src="https://github.com/The-Liam-Blair/Honours/assets/60526247/c1199bd4-2070-4cb5-adc5-7f57763c30d4" alt="Game Thumbnail" class="w-full h-48 flex items-center justify-center object-contain mt-8" />
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">Honours Project - 2D Procedural Terrain Generation</h4>
+            <p class="text-sm text-gray-400 mb-4">2D procedural terrain generation project using the Wave Function Collapse algorithm and Voronoi Regions.</p>
+            <div class="flex justify-between items-center">
+              <a href="#" class="text-purple-400 hover:underline text-sm">View More →</a>
+              <div class="flex gap-x-3">
+                <a href="https://github.com/The-Liam-Blair/Honours" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/github.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gray-900 rounded-xl shadow-md overflow-hidden">
+          <img src="https://img.itch.zone/aW1nLzEwOTQ3MzIxLnBuZw==/315x250%23c/6S48Qb.png" alt="Game Thumbnail" class="w-full h-48 flex items-center justify-center object-contain mt-8" />
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">Advanced Games Engineering Project - "Shift"</h4>
+            <p class="text-sm text-gray-400 mb-4">Goal-Oriented Action Planning project contextualised within a spooky maze game.</p> <br>
+            <div class="flex justify-between items-center">
+              <a href="#" class="text-purple-400 hover:underline text-sm">View More →</a>
+              <div class="flex gap-x-3">
+                 <a href="https://liam-blair.itch.io/shift" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/itch.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+                <a href="https://github.com/The-Liam-Blair/Honours" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/github.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="bg-gray-900 rounded-xl shadow-md overflow-hidden">
+          <img src="https://img.itch.zone/aW1nLzg4MTQyNDQucG5n/315x250%23c/cEKu2Z.png" alt="Game Thumbnail" class="w-full h-48 flex items-center justify-center object-contain mt-8" />
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">Games Engineering Project - "Maze Escape"</h4>
+            <p class="text-sm text-gray-400 mb-4">Group project on developing a simple atari-styled maze escape game.</p> <br>
+            <div class="flex justify-between items-center">
+              <a href="#" class="text-purple-400 hover:underline text-sm">View More →</a>
+              <div class="flex gap-x-3">                  
+                <a href="https://mikha-alwod.itch.io/maze-escape" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/itch.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+                <a href="https://github.com/MikhaRohrs/Maze-Escape" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/github.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- GAME JAMS -->
+    <div>
+      <h4 class="text-2xl font-semibold mb-6">Game Jams</h4>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="bg-gray-900 rounded-xl shadow-md overflow-hidden">
+          <img src="https://img.itch.zone/aW1nLzE0ODMzMTI1LnBuZw==/315x250%23c/BR%2Faeu.png" alt="Game Thumbnail" class="w-full h-48 flex items-center justify-center object-contain mt-8" />
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">Last Laugh Showdown!</h4>
+            <p class="text-sm text-gray-400 mb-4">Two-player sidescroller beat-em-up developed as part of the 2024 Global Game Jam.</p> <br>
+            <div class="flex justify-between items-center">
+              <a href="#" class="text-purple-400 hover:underline text-sm">View More →</a>
+              <div class="flex gap-x-3">
+                 <a href="https://stubbsuk69.itch.io/last-laugh-showdown" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/itch.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+                <a href="https://github.com/The-Liam-Blair/GlobalGameJam2024" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/github.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+                <div class="bg-gray-900 rounded-xl shadow-md overflow-hidden">
+          <img src="https://img.itch.zone/aW1nLzExMjQxMDM0LnBuZw==/315x250%23c/iKH2cj.png" alt="Game Thumbnail" class="w-full h-48 flex items-center justify-center object-contain mt-8" />
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">Back to Roots</h4>
+            <p class="text-sm text-gray-400 mb-4">Short silly 2.5D game developed as part of the 2023 Global Game Jam.</p> <br>
+            <div class="flex justify-between items-center">
+              <a href="#" class="text-purple-400 hover:underline text-sm">View More →</a>
+              <div class="flex gap-x-3">
+                 <a href="https://liam-blair.itch.io/back-to-roots" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/itch.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+                <a href="https://github.com/alwod/GameJam2023" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/icons/github.png" alt="GitHub" class="w-6 h-6 hover:opacity-75" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
   <!-- CONTACT -->
   <section id="contact" class="py-16 px-4 bg-gray-900 text-center">
-    <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
+    <h3 class="text-3xl font-bold mb-6">Contact & Socials</h3>
     <div class="flex justify-center gap-6 mt-4 text-xl">
       <a href="https://github.com/The-Liam-Blair" class="hover:text-purple-400">GitHub</a>
       <a href="https://liam-blair.itch.io" class="hover:text-purple-400">Itch.io</a>
@@ -61,11 +203,5 @@
     
     </div>
   </section>
-
-  <!-- FOOTER -->
-  <footer class="py-4 text-center text-sm text-gray-500 bg-gray-950">
-    © 2025 [Your Name]. All rights reserved.
-  </footer>
-
 </body>
 </html>
