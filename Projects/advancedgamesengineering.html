@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liam Blair Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <!-- Breadcrumb / Back Link -->
+  <div class="max-w-4xl mx-auto px-4 py-6">
+    <a href="../index.html#projects" class="text-purple-400 hover:underline text-sm">← Back to Projects</a>
+  </div>
+
+  <!-- Project Header -->
+  <section class="max-w-4xl mx-auto px-4">
+    <h1 class="text-3xl font-bold mb-2">Advanced Games Engineering Project - 'Shift'</h1>
+    <p class="text-sm text-gray-400 mb-8">Advanced Games Engineering project that investigated the use of the Goal-Oriented Action Planning game AI algorithm and it's effectiveness at calculating and performing run-time complex plans.</p>
+    
+    <!-- Gallery -->
+    <div class="mb-8 mx-auto max-w-2xl">
+      <img src="https://raw.githubusercontent.com/The-Liam-Blair/Risk-of-Rain-2-Patapon-Meditate/refs/heads/main/Images/ExampleUsage.gif" alt="Screenshot 1" class="rounded-lg object-contain w-full" />
+    </div>    
+    
+    <!-- Links -->
+    <div class="mb-8">
+      <h2 class="text-xl font-semibold mb-2 mb-8 gap-6 flex">
+              <a href="https://liam-blair.itch.io/shift" class="hover:text-purple-400" target="_blank" rel="noopener noreferrer">Itch.io</a>
+              <a href="https://github.com/The-Liam-Blair/Advanced-Games-Engineering-Project" class="hover:text-purple-400" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </h2>
+    </div>
+
+    <div class="mb-8">
+      <p class="text-sm text-gray-300">
+        This project, completed in my final year of university, focused on implementing and extending the Goal-Oriented Action Planning (GOAP) game AI algorithm to enable NPCs to create and carry out complex and effective plans on the fly to best hinder and defeat the player. Contextualised within a dark maze escape game, the hostile NPCs had five goals that they could satisfy, and eight unique actions to use to satisfy each goal.
+        <br><br>
+        Derived from the STRIPS (Stanford Research Institute Problem Solver) planning algorithm, GOAP is an AI strategy that has NPCs generate plans to fulfill goals, where the goal is selected first by current priority, then the process to complete that goal is formulated with a preset list of actions that the NPC can carry out which can progress that goal. After a plan is made, the NPC will execute the plan.
+        <br><br>
+        To carry out plans, each NPC is given a list of actions they can take. Each action has a set of preconditions, requirements that allow the action to be used, and effects, the consequences of carrying out the action successfully. Using this, plans are designed by using the A* algorithm to simulate actions through a simulated initial worldstate that is then modified by action effects, until a potential goal state is reached. The most efficient action path is then chosen as the final plan.
+        <br><br>
+        The GOAP algorithm was optimised and improved further with the use of:
+         <br>- Goal insistence, which allows goals to change priorities depending on the current worldstate (such as an enemy being able to see the player or not), 
+         <br>- With plan aborting, which allows NPCs to end execution of a current plan and immediately begin drafting a new one if the current goal became low priority or the current plan was deemed too costly,
+         <br>- And with action costs, which dictates how expensive each action is, and so allows the A* algorithm to choose action pathways based on cost to create more efficient plans.
+      </p>
+    </div>
