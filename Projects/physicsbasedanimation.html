@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liam Blair Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-800 text-gray-100 font-sans">
+
+  <header class="sticky top-0 bg-gray-950/80 backdrop-blur z-50 h-16">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Liam Blair Portfolio</h1>
+      <ul class="flex gap-8 text-sm">
+        <li><a href="../index.html#projects" class="hover:text-purple-400">← Back to Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Project Header -->
+  <section class="max-w-4xl mx-auto px-4 mt-8">
+    <h1 class="text-3xl font-bold mb-2">Physics Based Animation Project</h1>
+    <p class="text-sm text-gray-400 mb-8">Simulating the movement of and collisions between a set of spheres with C++ and OpenGL</p>
+    
+    <!-- Gallery -->
+    <div class="mb-8 mx-auto max-w-2xl">
+      <img src="../Assets/images/PhysicsBasedAnimationImage.gif" alt="Screenshot 1" class="rounded-lg object-contain w-full" />
+    </div>    
+    
+    <!-- Links -->
+    <div class="mb-8">
+      <h2 class="text-xl font-semibold mb-2 mb-8 gap-6 flex">
+              <a href="https://github.com/The-Liam-Blair/Physics-Based-Animation-Project" class="hover:text-purple-400" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </h2>
+    </div>
+
+    <div class="mb-8">
+      <p class="text-sm text-gray-300">
+        This short project served as my final coursework for my Physics-Based Animation course in my penultimate year in university. The aim of the project was to have a large collection of spheres (At least 50) to have simulated movement and collisions between themselves and the platform boundaries.
+        <br><br>Developed in C++ and using the OpenGL library, the calculations for collisions, correcting collisions and applying impulse forces was implemented. Additionally to maintain performance for a large number of spheres, broad-phase collision detection was implemented such that each sphere performs collision-detection checks if at least two spheres occupy the same 'grid' square on the platform, enabling the simulation to simulate a large number of spheres at once with minimal performance overheads.
+        <br><br>Additionally, spheres of different sizes and mass were included in the project (Red spheres having a mass and radius of one unit, green having a radius and mass of two units, and blue having a radius and mass of three units), to ensure that the simulation can handle sphere-to-sphere collisions with abnormal, three dimensional collision normals, and that the impulse algorithm can correctly calculate and transfer kinetic energy when spheres of different mass collide. As vertical movement is possible in the simulation (from collisions and gravity), micro-collisions were also implemented exclusively for movement on the y-axis to counteract 'jittering', or short, rapid bounces on the platform, to remove the unneeded vertical energy.
+      </p>
+    </div>
